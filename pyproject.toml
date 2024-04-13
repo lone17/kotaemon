@@ -12,8 +12,8 @@ version = "0.0.1"
 requires-python = ">= 3.10"
 description = "Kotaemon App"
 dependencies = [
-    "kotaemon @ git+https://github.com/Cinnamon/kotaemon.git/@main#subdirectory=libs/kotaemon",
-    "ktem @ git+https://github.com/Cinnamon/kotaemon.git@main#subdirectory=libs/ktem"
+    "kotaemon @ git+https://github.com/Cinnamon/kotaemon.git/@hfhub-deploy#subdirectory=libs/kotaemon",
+    "ktem @ git+https://github.com/Cinnamon/kotaemon.git@hfhub-deploy#subdirectory=libs/ktem"
 ]
 
 [tool.codespell]

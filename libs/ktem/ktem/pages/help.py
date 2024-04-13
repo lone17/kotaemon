@@ -14,7 +14,7 @@ class HelpPage:
                 gr.Markdown(fi.read())
 
         with gr.Accordion("User Guide"):
-            with (self.doc_dir / "usage.md").open(encoding="utf-8") as fi:
+            with (self.md_dir / "usage.md").open(encoding="utf-8") as fi:
                 gr.Markdown(fi.read())
 
         with gr.Accordion("Changelogs"):

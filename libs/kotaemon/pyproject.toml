@@ -35,6 +35,17 @@ dependencies = [
     "pypdf",
     "html2text",
     "fastembed",
+    "llama-cpp-python",
+    "wikipedia",
+    "duckduckgo-search",
+    "googlesearch-python",
+    "python-docx",
+    "pytest-mock",
+    "unstructured[pdf]",
+    "sentence_transformers",
+    "cohere",
+    "elasticsearch",
+    "pdfservices-sdk @  git+https://github.com/niallcm/pdfservices-python-sdk.git@bump-and-unfreeze-requirements",
 ]
 readme = "README.md"
 license = { text = "MIT License" }
@@ -51,18 +62,6 @@ classifiers = [
 
 [project.optional-dependencies]
 adv = [
-    "wikipedia",
-    "duckduckgo-search",
-    "googlesearch-python",
-    "python-docx",
-    "pytest-mock",
-    "unstructured[pdf]",
-    "sentence_transformers",
-    "cohere",
-    "elasticsearch",
-    "llama-cpp-python",
-    "pdfservices-sdk @  git+https://github.com/niallcm/pdfservices-python-sdk.git@bump-and-unfreeze-requirements",
-    "fastembed",
 ]
 dev = [
     "ipython",
